@@ -1,4 +1,4 @@
-python src/main_tvd.py  --model_name "/inspire/hdd/ws-f4d69b29-e0a5-44e6-bd92-acf4de9990f0/public-project/liuyuliang-240108350135/S2PRM/dataset_process/deepseek-coder-6.7b-instruct_sft_biao_bz64_5e6_tem_1115/model" \
+python src/main_tvd.py  --model_name "model" \
                 --task "LeetCodeTest" \
                 --save "sft_old_test" \
                 --num_gpus 4 \
