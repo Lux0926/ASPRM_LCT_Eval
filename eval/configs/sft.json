@@ -1,0 +1,10 @@
+{
+    "ckpt_path": "/data/oce/ckpt",
+    "ckpt_names": ["sftv40"], 
+    "listen_config": {
+        "sftv40": {
+            "bigcode_hard": {
+            }
+        }
+    }
+}

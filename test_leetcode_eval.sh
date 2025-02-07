@@ -1,0 +1,17 @@
+python src/main_eval.py  --model_name "/inspire/hdd/ws-f4d69b29-e0a5-44e6-bd92-acf4de9990f0/public-project/liuyuliang-240108350135/S2PRM/dataset_process/deepseek-coder-6.7b-instruct_sft_biao_bz64_5e6_tem_1115/model" \
+                --task "LeetCodeTest" \
+                --save "sft_old_test" \
+                --num_gpus 4 \
+                --num_samples 1 \
+                --k 1 \
+                --temperature 0.0 \
+                --num_workers 32 \
+                --batch_size 200 \
+                --max_tokens 8192 \
+                --model_type "Chat" \
+                --prompt_type "Instruction" \
+                --prompt_prefix "" \
+                --prompt_suffix "" \
+                --trust_remote_code \
+                --input_file "result_s2prm_datacodeandmathmistralv3_modelds_bz64_lr4e6_epo1_no_con_confidence_leetCoTE_64_ds_data.jsonl" \
+                --output_file "result_s2prm_datacodeandmathmistralv3_modelds_bz64_lr4e6_epo1_no_con_confidence_leetCoTE_64_ds_data.jsonl" &
